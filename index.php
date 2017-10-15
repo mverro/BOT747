@@ -50,7 +50,7 @@ if($url['result'] == 404)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Mohon Gunakan Bahasa Indonesia Yang Benar :D.'
+										'text' => 'yuri laper, makan yuk'
 									)
 							)
 						);
@@ -67,11 +67,180 @@ if($url['result'] != 100)
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => 'Maaf '.$profil->displayName.' Server Kami Sedang Sibuk Sekarang.'
+										'text' => 'Maaf '.$profil->displayName.' bodo amat'
 									)
 							)
 						);
 				
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' tidur lagi ah'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' udah makan semua? zara dah makan tadi'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' enaknya ngapain ya?'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' makan kentang goreng enak tau'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' zam..'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' bales zam'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' udah loh'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' mandi sana'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' aku kuliah hari ini'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' ajarin aku kalkulus dong'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' kok ngantuk ya'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' nonton bareng zara yuk'
+									)
+							)
+						);
+						
+	}
+	else{
+		$balas = array(
+							'UserID' => $profil->userId,
+                                                        'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Maaf '.$profil->displayName.' lg ngapain?'
+									)
+							)
+						);
+						
 	}
 	else{
 		$balas = array(
