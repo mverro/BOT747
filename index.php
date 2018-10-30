@@ -7,8 +7,8 @@ And Modified by Farzain - zFz ( Faraaz )
 */
 require_once('./line_class.php');
 
-$channelAccessToken = '7XwQjI7j19Z6JJEHtuviHR8n+XiY3bjPFTbyEorL11oLFAqYl5LuYUHMLssd+z3bnJVCDA7lpOe0XZ9wHf/jRC4g62ZDggQJJSjcYQ2gX1xOSQ/dD0miYesGZgnJX80gt6yvmylyqs7D4pL8f/gCewdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
-$channelSecret = 'c9879b819c5b7d774a94462434046c98';//Your Channel Secret
+$channelAccessToken = 'iibqDD7jQ9dRwGvwZ46b5wnMCfa9/v8a9hSPMhTvBETl6V0nzgqm6cV15EI4H/Q9ZNYmZfYtcuNmEU8iFAWRFdDnNOUX7yk30MNtSCTam5ebi+CzOVpn6keQcmj46L24O+FQ3qgdtdL7ky7bP/Du3wdB04t89/1O/w1cDnyilFU='; //Your Channel Access Token
+$channelSecret = '265ab21d7ef3d6c15c70f47da6b9f8a2';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
